@@ -1,3 +1,5 @@
+package org.example;
+
 import java.time.LocalTime;
 
 public class Saudacao {
@@ -23,6 +25,8 @@ public class Saudacao {
         } else {
             System.out.println("Boa noite!");
         }
+
+        System.out.println("Agora São: " + horaAtual);
 
 
     }
